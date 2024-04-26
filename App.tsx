@@ -9,16 +9,6 @@ const App = () => {
   }
 
   return (
-    // <NavigationContainer>
-    //   <Stack.Navigator>
-    //     <Stack.Screen
-    //       name="Home"
-    //       component={Home}
-    //       options={{ title: "Demo" }}
-    //     />
-    //     <Stack.Screen name="Detection" component={Liveness} />
-    //   </Stack.Navigator>
-    // </NavigationContainer>
     <Liveness
       detectionsList={['SMILE']}
       onTestComplete={onTestComplete}
